@@ -18,9 +18,11 @@ git clone https://codeberg.org/creadesk/simple_keyvault.git
 
 ### Image erstellen
 ```bash
-cd simple_keyvault
 sudo apt install -y docker.io
 sudo apt install -y docker-buildx
+sudo usermod -aG docker $USER
+sudo reboot
+cd simple_keyvault
 docker build . -t simple_keyvault:latest
 ```
 
