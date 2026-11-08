@@ -7,6 +7,15 @@
 
 > Der Master-Key wird an keiner Stelle persistiert.
 
+### Projekt klonen
+```bash
+sudo apt install curl jq git
+cd ~
+git clone https://github.com/creadesk/simple_keyvault.git
+Alternativ:
+git clone https://codeberg.org/creadesk/simple_keyvault.git
+```
+
 ### Image erstellen
 ```bash
 cd simple_keyvault
