@@ -65,6 +65,7 @@ docker run -it \
 ```bash
 docker logs -f simple_keyvault
 ```
+> Logausgabe mit STRG+C verlassen
 
 ### Container stoppen
 ```bash
