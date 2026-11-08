@@ -49,7 +49,7 @@ mkdir data/
 ### Container starten:
 ```bash
 docker run -it \
-  --name keyvault \
+  --name simple_keyvault \
   --network none \
   -v $(pwd)/data:/data \
   simple_keyvault:latest
