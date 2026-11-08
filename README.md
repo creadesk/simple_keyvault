@@ -1,7 +1,7 @@
 > Ein einfacher python basierter Schlüsselspeicher.
 
 > Zweck: Potenzielle Integration in andere Python-Projekte.
-> Hier als eigenständer Prototyp in Form eines Docker Containers.
+> Hier als eigenständiger Prototyp in Form eines Docker Containers.
 
 > Das Design ist absichtlich so gewählt, dass bei jedem Start der Applikation der Master-Key manuell eingegeben werden muss.
 
